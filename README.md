@@ -32,14 +32,19 @@ This mini project is created for general users use it. The project development p
             
 ##### 3.  Instructions and materials 
     External Library: the libraries below were included in file pom.xml
+    
     1. Encode UTF-8:
         Link: https://maven.apache.org/general.html#encoding-warning 
+        
     2. Used library jackson-annotations:
         Link: https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+        
     3. Used library jackson-databind:
         Link: https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+        
     4.  Used library maven-compiler-plugin:
          Link: https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin
+         
     5. Used library lombok:
         Link: https://mvnrepository.com/artifact/org.projectlombok/lombok
 
