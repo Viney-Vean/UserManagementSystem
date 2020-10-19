@@ -15,7 +15,8 @@ This mini project is created for general users use it. The project development p
     3. Downloadn IntelliJ IDE:
         Download from link: https://www.jetbrains.com/idea/download/#section=linux
         How to install:
-            IntelliJ IDEA is also available as a snap package. If you’re on Ubuntu 16.04 or later, you can install IntelliJ IDEA from the command line.
+            IntelliJ IDEA is also available as a snap package. 
+            If you’re on Ubuntu 16.04 or later, you can install IntelliJ IDEA from the command line.
             
             sudo snap install intellij-idea-community --classic
             
@@ -27,7 +28,7 @@ This mini project is created for general users use it. The project development p
             
             sudo snap install intellij-idea-educational --classic
             
-    4. How to Compile and build applications with IntelliJ IDEA
+    4. How to Compile and build applications with IntelliJ IDEA 
         Link: https://www.jetbrains.com/help/idea/compiling-applications.html
             
 ##### 3.  Instructions and materials 

@@ -10,6 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+import com.usermanagement.system.core.NumberValidation;
 import lombok.Data;
 
 @Data
@@ -113,18 +114,9 @@ public class UserUI {
         commandLineTable.print();
     }
 
-    private boolean isNumber(String str) {
-        try {
-            Integer.parseInt(str);
-            return true;
-        } catch (Exception e) {
-        }
-
-        return false;
-    }
-
     private void displayUserDetail() {
         boolean exitUserDetail = true;
+        NumberValidation numberValidation = new NumberValidation();
 
         do {
             Scanner scanner = new Scanner(System.in);
@@ -135,7 +127,7 @@ public class UserUI {
             if (pressKey.equalsIgnoreCase("E")) {
                 exitUserDetail = false;
 
-            } else if (this.isNumber(pressKey)) {
+            } else if (numberValidation.isInteger(pressKey)) {
                 String userDetailUrl = this.githubUrl + "/" + pressKey;
                 User user = this.readJsonUserDetailFromUrl(userDetailUrl);
 
